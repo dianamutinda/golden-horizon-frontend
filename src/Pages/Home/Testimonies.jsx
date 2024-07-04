@@ -5,7 +5,7 @@ const Testimonies = () => {
   return (
     <section>
       <h1 className="test-title">Testimonies</h1>
-      <div className="container">
+      <div className="test-containers">
         <div className="test-container">
           <div className="stars">
             <p>
