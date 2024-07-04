@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Headertop = () => {
   return (
     <section className="header">
@@ -6,13 +8,13 @@ const Headertop = () => {
       </div>
       <div className="cta">
         <div>
-          <a href="">sign up</a>
+          <Link to="/sign up">sign up</Link>
         </div>
         <div>
-          <a href="">log in</a>
+          <Link to="/log in">log in</Link>
         </div>
         <div>
-          <a href="">log out</a>
+          <Link to="/">log out</Link>
         </div>
       </div>
     </section>
