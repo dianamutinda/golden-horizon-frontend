@@ -66,4 +66,8 @@
     border-radius: 10px;
     display: grid;
     place-content: center;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+    padding-top:10px ;
+    padding-bottom: 10px;
 }
